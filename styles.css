@@ -1,0 +1,103 @@
+body {
+  margin:0;
+  padding:0;
+}
+
+#Home{
+  position:absolute;
+}
+
+
+#MapContainer{
+  position: absolute;
+  top:101px;
+  bottom:50px;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-width: 10px;
+  border-style: inset;
+  width:75%;
+  float:left;
+}
+
+#Header{
+  width:100%;
+  position: absolute;
+  height: 100px;
+  background-color: azure;
+  top:0;
+  border-top:solid;
+  border-bottom:solid;
+  border-color: lightgrey;
+}
+
+#Footer{
+  height: 50px;
+  width:100%;
+  position: absolute;
+  bottom:0;
+  background-color: azure;
+  border-top:solid;
+  border-bottom:solid;
+  border-color: lightgrey;
+}
+
+#table{
+  display: table;
+}
+
+#MenuList {
+  height:100%;
+  margin:0;
+  list-style: none;
+  display:inline;
+  position: absolute;
+  float: right;
+  top:50%;
+  right:10px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#MenuList li{
+  box-sizing: border-box;
+  display: inline-block;
+  padding-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: 100%;
+}
+
+#MenuList a {
+  text-align: center;
+  display:block;
+  padding-right: 10px;
+  color: black;
+  font-size:15px;
+  text-decoration: none;
+}
+
+#logo{
+  display: inline;
+  height: 100%;
+}
+
+#iconLink {
+  height:100%;
+}
+
+.menu-icon {
+  height: 50%;
+  display:block;
+}
+
+.icon {
+  margin: auto;
+  display: block;
+  height:100%;
+  float:center;
+}
+
+.marker:hover{
+  fill:blue;
+}
